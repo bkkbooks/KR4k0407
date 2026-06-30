@@ -1,0 +1,34 @@
+canonical_identifier: bkk:krp/KR4k0407/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR4k0407/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 會稽先賢傳一卷
+  identifiers:
+    krp: KR4k0407
+  tags:
+    kr-categories: KR4k
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR4k0407.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR4k0407_001-CHANT.yaml, hash: 'sha256:39a045d990b0d3d2faaabc5a0812db5360af637f920e7b9f7b1058a81344d4ab'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR4k0407_001-CHANT.markers.yaml, hash: 'sha256:2e4ed1f48fed770ed717c3d7e527100c3c22bfefdd35d3858f66bcd31f3c8ba7'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR4k0407_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 307
+  label: 會稽先賢傳
+  type: section
+  level: 1
+hash: sha256:cc2f6f8b5a72c1540406f1cec35a7a475cb5348e45518e7fc6097c6d26cc16e0
