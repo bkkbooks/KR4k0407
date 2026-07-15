@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR4k0407/v1
 canonical_location: https://kanripo.org/bkk/KR4k0407/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 會稽先賢傳一卷
   identifiers:
@@ -17,9 +17,9 @@ metadata:
     short: bkk
 assets:
   parts:
-  - {seq: 1, filename: KR4k0407_001.yaml, hash: 'sha256:39a045d990b0d3d2faaabc5a0812db5360af637f920e7b9f7b1058a81344d4ab'}
+  - {seq: 1, filename: KR4k0407_001.yaml, hash: 'sha256:796212e03b5200185b7f1db8a7d71ee0439b27279f4a2a5e863f8235d762aa43'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR4k0407_001.markers.yaml, hash: 'sha256:02167628e67906028c1bfae0bfbb41e12504f01b1337f6952b4098db8f2669d1'}
+  - {seq: 1, role: markers, filename: assets/KR4k0407_001.markers.yaml, hash: 'sha256:306d7bd528a875832276de1d2b816d8e6110d41d42440335e269178b4ac76dc5'}
 table_of_contents:
 - ref:
     seq: 1
@@ -31,4 +31,7 @@ table_of_contents:
   label: 會稽先賢傳
   type: section
   level: 1
-hash: sha256:83218de6712acde414684d1834a4a4412c23ad6cfc619f93cd8767e4c7630e1f
+hash: sha256:75c33fb87554a71392401e3420dffc39f248f9130108387460f9340009adb69d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
